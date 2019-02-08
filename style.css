@@ -1,0 +1,131 @@
+/*for chrome keyframes*/
+@-webkit-keyframes changeColor{
+    0%  {background-color:#f93803;}
+    10% {background-color:#e8d211;}
+    20% {background-color:#60e811;}
+    30% {background-color:#11e863;}
+    40% {background-color:#11e8d2;}
+    50% {background-color:#1195e8;}
+    60% {background-color:#2211e8;}
+    70% {background-color:#9111e8;}
+    80% {background-color:#e811dd;}
+    90% {background-color:#e81111;}
+    100%{background-color:#f93803}
+  }
+  @-webkit-keyframes textColor{
+    0%  {color:#f93803;}
+    10% {color:#e8d211;}
+    20% {color:#60e811;}
+    30% {color:#11e863;}
+    40% {color:#11e8d2;}
+    50% {color:#1195e8;}
+    60% {color:#2211e8;}
+    70% {color:#9111e8;}
+    80% {color:#e811dd;}
+    90% {color:#e81111;}
+    100%{color:#f93803}
+  }
+  /*standard keyframes*/
+  keyframes changeColor{
+    0%  {background-color:#f93803;}
+    10% {background-color:#e8d211;}
+    20% {background-color:#60e811;}
+    30% {background-color:#11e863;}
+    40% {background-color:#11e8d2;}
+    50% {background-color:#1195e8;}
+    60% {background-color:#2211e8;}
+    70% {background-color:#9111e8;}
+    80% {background-color:#e811dd;}
+    90% {background-color:#e81111;}
+    100%{background-color:#f93803}
+  }
+  keyframes textColor{
+    0%  {color:#f93803;}
+    10% {color:#e8d211;}
+    20% {color:#60e811;}
+    30% {color:#11e863;}
+    40% {color:#11e8d2;}
+    50% {color:#1195e8;}
+    60% {color:#2211e8;}
+    70% {color:#9111e8;}
+    80% {color:#e811dd;}
+    90% {color:#e81111;}
+    100%{color:#f93803}
+  }
+  body{
+    background-color:#f93803;
+    -webkit-animation-name: changeColor;
+    -webkit-animation-duration: 45s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: changeColor;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+  }
+  .btn{
+    background-color:#f93803;
+    color:white;
+    font-family:Hi Melody;
+    font-size:1.8em;
+    -webkit-animation-name: changeColor;
+    -webkit-animation-duration: 45s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: changeColor;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+  }
+  .btn:hover{color: black;}
+  .btn:visited{color: white;}
+  .fa{
+    background-color:transparent;
+    border:none;
+  }
+  .fa-twitter-square{
+    color:#f93803;
+    font-size:3.9em;
+    border:none;
+    -webkit-animation-name:textColor;
+    -webkit-animation-duration:45s;
+    -webkit-animation-iteration-count:infinite;
+    animation-name:textColor;
+    animation-duration:45s;
+    animation-iteration-count:infinite;
+  }
+  @media only screen and (max-width:700px){
+    #quoteMachine{
+    width:20em;
+    padding: 1em 1.7em;
+    }
+    #quote{
+      font-size:1em;
+    }
+  }
+  @media only screen and (min-width:701px){
+    #quoteMachine{
+    width:40em;
+    padding: 1em 3em;
+    }
+    #quote{
+      font-size:1.7em;
+    }
+  }
+  #container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #quoteMachine{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius:10px;
+  }
+  #quote{
+    margin:1em 1em 2em 1em;
+    font-family:Gugi;
+  }
+  #credit{
+    margin:0.3em;
+    text-align:center;
+  }
+  #credit a{
+    font-family:Jua;
+  }

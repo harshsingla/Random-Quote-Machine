@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Gugi|Hi+Melody|Jua" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="controller.js"></script>
+    <title>Random Quote</title>
+</head>
+<body>
+    <div id="container">
+      <div id="quoteMachine" class="container-fluid">
+        <div id="quote">
+          <p><i class="fa fa-quote-left"></i>
+            <span id="text" class=message></span>
+          </p>
+          <p style="text-align:right;" id="author"></p>
+        </div>
+        <div id="generator" class="row">
+          <div class="col-xs-4">
+            <a href="#" id="tweet"><span class="fa fa-twitter-square"></span></a>
+          </div>
+          <div class="col-xs-8" style="text-align:right;">
+            <button id=newQuote class="btn">New Quote</button>
+          </div>
+        </div>
+      </div>
+      <div id="credit">developed by <a href="https://codepen.io/Parimate722/#" target=_blank>Parimate</a>.</div>
+    </div>
+</body>
+</html>
